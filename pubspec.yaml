@@ -1,0 +1,59 @@
+name: smart_reminder
+description: A production-ready Smart Reminder App with clean architecture
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Voice Input (on-device speech recognition)
+  speech_to_text: ^7.0.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1
+
+  # Date/Time
+  intl: ^0.19.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+
+  # NoteWise Logic Port Dependencies
+  device_calendar: ^4.3.2
+  device_info_plus: ^10.1.0
+  crypto: ^3.0.3
+  workmanager: ^0.7.0
+  url_launcher: ^6.3.2
+  http: ^1.6.0
+  easy_localization: ^3.0.7
+  uuid: ^4.5.3
+  encrypt: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
