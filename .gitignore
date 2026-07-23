@@ -32,3 +32,6 @@ web/build/
 
 # Docs
 README.md
+
+.env
+.env.*
